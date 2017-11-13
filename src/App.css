@@ -1,3 +1,8 @@
+html, body {
+    /*height: 100%;*/
+    /*width: 100%;*/
+}
+
 .App {
   text-align: left;
 }
@@ -9,7 +14,7 @@
 
 .App-header {
   background-color: #222;
-  height: 75px;
+  height: 70px;
   padding: 10px;
   color: white;
   display: flex;
@@ -20,19 +25,25 @@
 .App-menu {
     display: flex;
     justify-content: space-between;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 .Menu-item{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     align-items: center;
     text-align: center;
-    width: 100px;
+    padding: 5px;
 }
 
 body{
-    background-color: blue;
+    background-image: url("/../../images/flamenco-beach.jpeg");
+    background-size: cover;
+    display: flex;
+    
+    /*flex-wrap: nowrap;*/
+    flex-direction: column;
 }
+
 .App-intro {
   font-size: large;
 }
