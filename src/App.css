@@ -13,39 +13,64 @@ html, body {
 }*/
 
 .App-header {
-  background-color: #222;
-  height: 70px;
-  padding: 10px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    /*background-color: #222222ba;*/
+    /*width: 100vw;*/
+
+    font-family: Dolce Vita ;
+    /*font-style: Quite Regular;*/
+    font-weight: bold;
+
+    height: 50px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
 }
 
+.App-title {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid white;*/
+}
+.Title-item{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
 .App-menu {
     display: flex;
     justify-content: space-between;
     /*border: 1px solid white;*/
 }
 
+.App-menu a:hover {
+   border-bottom: 2px solid #C2965D; }
+
 .Menu-item{
-    /*border: 1px solid red;*/
+    color: white;
+    text-decoration: none;
     align-items: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 body{
     background-image: url("/../../images/flamenco-beach.jpeg");
+    height: 100vh;
+    background-position-x: 30%;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    
-    /*flex-wrap: nowrap;*/
+    flex-wrap: nowrap;
     flex-direction: column;
 }
 
 .App-intro {
-  font-size: large;
+  color: white;
 }
 
 @keyframes App-logo-spin {
