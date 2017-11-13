@@ -12,10 +12,10 @@ class App extends Component {
                     </div>
 
                     <div className="App-menu">
-                        <div>About</div>
-                        <div>Portfolio</div>
-                        <div>Resume</div>
-                        <div>Contact</div>
+                        <div className="Menu-item">About</div>
+                        <div className="Menu-item">Portfolio</div>
+                        <div className="Menu-item">Resume</div>
+                        <div className="Menu-item">Contact</div>
                     </div>
                 </header>
                 <p className="App-intro"></p>
