@@ -48,14 +48,15 @@ html, body {
 }
 
 .App-menu a:hover {
-   border-bottom: 2px solid #C2965D; }
+   font-size: 20px;
+   border-bottom: 2px solid white; }
 
 .Menu-item{
     color: white;
     text-decoration: none;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    margin:15px;
 }
 
 body{
@@ -69,10 +70,22 @@ body{
     flex-direction: column;
 }
 
+
 .App-intro {
   color: white;
 }
 
+.bodySection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 75vh;
+}
+p {
+    color: white;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
