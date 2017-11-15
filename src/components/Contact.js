@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import '../App.css'
 // import Header from './Header';
 
-export default class About extends Component {
+export default class Contact extends Component {
     render() {
         return (
             <div className="App">
@@ -12,7 +12,7 @@ export default class About extends Component {
 
 
                     <div>
-                        <p> ABOUT SECTION </p>
+                        <p> CONTACTs SECTION </p>
                     </div>
 
 

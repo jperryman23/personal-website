@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css'
+// import About from './components/About';
 
 import {
     // BrowserRouter as Router,
@@ -25,10 +26,10 @@ export default class Header extends Component {
                         </div>
 
                         <div className="App-menu">
-                            <a className="Menu-item" href='#about'>About</a>
-                            <a className="Menu-item" href='#resume'>Resume</a>
-                            <a className="Menu-item" href='#portfolio'>Portfolio</a>
-                            <a className="Menu-item" href='#contact'>Contact</a>
+                            <a className="Menu-item" href='/about'>About</a>
+                            <a className="Menu-item" href='/resume'>Resume</a>
+                            <a className="Menu-item" href='/portfolio'>Portfolio</a>
+                            <a className="Menu-item" href='/contact'>Contact</a>
                         </div>
 
                     </header>

@@ -3,11 +3,17 @@ import React, {Component} from 'react';
 import './App.css';
 import Header from './components/Header';
 import HomeBody from './components/HomeBody';
-// import About from './components/About';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+
+
+
 
 import {
     // BrowserRouter as Router,
-    // Route,
+    Route,
     // Link
 } from 'react-router-dom'
 
@@ -19,7 +25,11 @@ class App extends Component {
                 <Header />
                 <HomeBody />
 
-
+                {/* <Route exact path='/' component={App}/> */}
+                <Route exact path='/About' component={About}/>
+                <Route exact path='/Resume' component={Resume}/>
+                <Route exact path='/Portfolio' component={Portfolio}/>
+                <Route exact path='/Contact' component={Contact}/>
 
             </div>
 
