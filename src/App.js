@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import HomeBody from './components/HomeBody';
+import Home from './components/Home';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
@@ -22,20 +21,22 @@ class App extends Component {
     render() {
         return (
             <div className='App'>
-                <Header />
-                <HomeBody />
 
-                {/* <Route exact path='/' component={App}/> */}
-                <Route exact path='/About' component={About}/>
-                <Route exact path='/Resume' component={Resume}/>
-                <Route exact path='/Portfolio' component={Portfolio}/>
-                <Route exact path='/Contact' component={Contact}/>
+
+            <Route exact path="/" component={Home}/>
+            <Route exact path='/About' component={About}/>
+            <Route exact path='/Resume' component={Resume}/>
+            <Route exact path='/Portfolio' component={Portfolio}/>
+            <Route exact path='/Contact' component={Contact}/>
 
             </div>
 
         );
     }
 }
+
+export default App;
+
 
 // const Header = () =>
 // <div>
@@ -58,6 +59,3 @@ class App extends Component {
 //
 //     </header>
 // </div>
-
-
-export default App;

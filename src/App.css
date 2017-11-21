@@ -15,18 +15,16 @@ html, body {
 .App-header {
     /*background-color: #222222ba;*/
     /*width: 100vw;*/
-
     font-family: Dolce Vita ;
     /*font-style: Quite Regular;*/
     font-weight: bold;
-
     height: 50px;
     padding: 10px;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 .App-title {
@@ -80,13 +78,47 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     height: 75vh;
 }
 p {
-    color: black;
+    color: white;
 }
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 25px;
+    width: 30px;
+    /*margin-left: 30px;*/
+    /*margin-right: 20px;*/
+}
+
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+
+.splash-footer {
+    /*border: 1px solid white;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: black;
+    opacity: .80;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Dolce Vita ;
+    /*font-style: Quite Regular;*/
+    font-weight: bold;
+
+
+    font-size: 12px;
+
 }

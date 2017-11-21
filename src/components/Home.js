@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import '../App.css'
+import Header from './Header';
+import Footer from './Footer';
 
-
-export default class HomeBody extends Component {
+export default class Home extends Component {
     render() {
         return (
             <div className="App">
-            
+                <Header />
+
 
                 <section className="bodySection">
 
@@ -18,6 +20,8 @@ export default class HomeBody extends Component {
 
 
                 </section>
+
+                <Footer/>
 
             </div>
         )

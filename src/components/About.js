@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 // import {connect} from 'react-redux';
 import '../App.css'
-// import Header from './Header';
+import Header from './Header';
+import Footer from './Footer';
 
 export default class About extends Component {
     render() {
         return (
             <div className="App">
-                {/* <Header  /> */}
+                <Header  />
 
 
 
@@ -16,7 +17,7 @@ export default class About extends Component {
                     </div>
 
 
-
+                <Footer />
             </div>
         )
     }
