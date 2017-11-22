@@ -5,25 +5,25 @@ import Footer from './Footer';
 
 export default class Home extends Component {
     render() {
-        return (
-            <div className="App">
-                <Header />
+        return (<div className="App">
+            <Header/>
 
+            <section className="HomeBodySection">
 
-                <section className="bodySection">
+                <div className="bigLogo">
+                    <img src="../../images/logoLarge.png" className="App-logo" alt="logoLarge" />
+                </div>
 
-                    <div>
-                        <div className="bigLogo">
-                            <img src="/../../images/logoLarge.png" alt="" height="450px"/>
-                        </div>
-                    </div>
+                <div className="homeTitle">
+                    <h1>
+                        FULL STACK WEB DEVLOPER
+                    </h1>
+                </div>
 
+            </section>
 
-                </section>
+            <Footer/>
 
-                <Footer/>
-
-            </div>
-        )
+        </div>)
     }
 }

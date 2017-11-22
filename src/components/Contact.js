@@ -14,7 +14,7 @@ export default class Contact extends Component {
 
 
                     <div>
-                        <p> CONTACTS SECTION </p>
+                        <p> CONTACT SECTION </p>
                     </div>
 
                     <Footer />

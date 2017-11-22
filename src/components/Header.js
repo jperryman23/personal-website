@@ -18,10 +18,10 @@ export default class Header extends Component {
                     <header className="App-header">
                         <div className="App-title">
                             <div className="Title-item">
-                                <img src="/../../images/logo-white.png" alt="" height="35px"/>
+                                <img src="/../../images/logo-white.png" alt="" height="30px"/>
                             </div>
-                            <div className="Title-item">J u l e s</div>
-                            <div className="Title-item">P e r r y m a n </div>
+                            <div className="Title-item">Jules Perryman </div>
+
                             {/* <div className="Title-item">| Full Stack Web Developer</div> */}
                         </div>
 

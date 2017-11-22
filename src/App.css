@@ -1,63 +1,4 @@
 html, body {
-    /*height: 100%;*/
-    /*width: 100%;*/
-}
-
-.App {
-  text-align: left;
-}
-
-/*.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}*/
-
-.App-header {
-    /*background-color: #222222ba;*/
-    /*width: 100vw;*/
-    font-family: Dolce Vita ;
-    /*font-style: Quite Regular;*/
-    font-weight: bold;
-    height: 50px;
-    padding: 10px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*border: 1px solid white;*/
-}
-
-.App-title {
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*border: 1px solid white;*/
-}
-.Title-item{
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-}
-.App-menu {
-    display: flex;
-    justify-content: space-between;
-    /*border: 1px solid white;*/
-}
-
-.App-menu a:hover {
-   font-size: 20px;
-   border-bottom: 2px solid white; }
-
-.Menu-item{
-    color: white;
-    text-decoration: none;
-    align-items: center;
-    text-align: center;
-    margin:15px;
-}
-
-body{
     background-image: url("/../../images/flamenco-beach.jpeg");
     height: 100vh;
     background-position-x: 30%;
@@ -68,40 +9,115 @@ body{
     flex-direction: column;
 }
 
-
-.App-intro {
-  color: white;
+.App {
+    text-align: center;
 }
 
-.bodySection {
+
+
+.App-header {
+    /*background-color: #222222ba;*/
+    /*width: 100vw;*/
+    font-family: Dolce Vita;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+    color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 3px;
+    /*border: 1px solid white;*/
+}
+
+.App-title {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     /*border: 1px solid white;*/
-    height: 75vh;
 }
-p {
+
+.Title-item {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 5px;
+
+}
+
+.App-menu {
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid white;*/
+}
+
+.App-menu a:hover {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+
+.Menu-item {
     color: white;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+/*HOME PAGE*/
+
+.HomeBodySection {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeTitle {
+    margin-top: 1em;
+    font-family: Dolce Vita;
+    /*font-weight: bolder;*/
+    color: black;
+    letter-spacing: 8px;
+    font-weight: 900;
+    font-size: 35px;
 }
 
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
-    height: 25px;
-    width: 30px;
-    /*margin-left: 30px;*/
-    /*margin-right: 20px;*/
+    height: 375px;
 }
 
 
 @keyframes App-logo-spin {
-  from { transform: rotateY(0deg); }
-  to { transform: rotateY(360deg); }
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+p {
+    color: white;
+}
+
+.App-logo1 {
+    /*animation: App-logo-spin infinite 10s linear;*/
+    height: 22px;
 }
 
 
+
 .splash-footer {
-    /*border: 1px solid white;*/
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -114,11 +130,9 @@ p {
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    font-family: Dolce Vita ;
+    font-family: Dolce Vita;
     /*font-style: Quite Regular;*/
     font-weight: bold;
-
-
     font-size: 12px;
-
+    letter-spacing: 3px;
 }

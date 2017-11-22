@@ -18,12 +18,15 @@ export default class Footer extends Component {
 
                 <div className="splash-footer">
 
-                    <div> &copy; Copyright 2017</div>
-                    <div>  Jules Perryman</div>
+
+                    <div> &copy; Copyright 2017 </div>
+                    {/* <div>  Jules Perryman</div> */}
                     <div> Full Stack Web Developer </div>
-                    <div> Phone: 720-530-1459 </div>
-                    <div> Location: Global</div>
-                    <div> <img src={logo1} className="App-logo" alt="logo" /> </div>
+                    <div><a href="https://www.julesperryman.com"> www.julesperryman.com </a> </div>
+                    {/* <div> www.julesperryman.io </div> */}
+                    <div> Location: Global </div>
+                    <div> <img src={logo1} className="App-logo1" alt="logo" /> </div>
+
 
                 </div>
 
