@@ -10,12 +10,16 @@ export default class About extends Component {
             <div className="App">
                 <Header  />
 
-
+                <div className="SectionHeader">
+                 ABOUT SECTION
+                </div>
+<section className="AboutSection">
 
                     <div>
-                        <p> ABOUT SECTION </p>
+                        <p> I am a full stack web developer with a business background. I am interested in both front or back-end web development positions and well as blockchain technology. I enjoy collaborating on projects and am a natural leader. I am passionate about innovative and unique applications that, if not already, have a global presence or mindset. Particularly, I excel at learning quickly, problem solving, maximizing efficiency, and creative solutions. As an avid world traveler and philanthropist I love experiencing new cultures and environments. </p>
                     </div>
 
+</section>
 
                 <Footer />
             </div>

@@ -9,13 +9,13 @@ export default class Resume extends Component {
         return (
             <div className="App">
                 <Header  />
-                    <div>
-                        <p> RESUME SECTION </p>
+                    <div className="SectionHeader">
+                        RESUME SECTION
                     </div>
 
 
                 <Footer />
-                
+
 
             </div>
         )

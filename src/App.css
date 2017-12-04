@@ -117,6 +117,26 @@ p {
 
 
 
+/*About Section*/
+
+.SectionHeader{
+    /*background: black;
+    opacity: .75;*/
+    color: rgb(100,172,188);
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.AboutSection {
+    display: flex;
+    flex-direction: row;
+    /*background: black;*/
+}
+
+
+
+
 .splash-footer {
     display: flex;
     flex-direction: row;

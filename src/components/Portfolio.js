@@ -12,8 +12,8 @@ export default class Portfolio extends Component {
 
 
 
-                    <div>
-                        <p> PORTFOLIO SECTION </p>
+                    <div className="SectionHeader">
+                        PORTFOLIO SECTION
                     </div>
 
 
