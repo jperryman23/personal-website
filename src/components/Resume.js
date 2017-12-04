@@ -13,6 +13,10 @@ export default class Resume extends Component {
                         RESUME SECTION
                     </div>
 
+                    <section className="ResumeSection">
+                  <object width="1100" height="575" data="../../images/JulesPerryman-Resume.pdf" className="resume"></object>
+
+                    </section>
 
                 <Footer />
 
