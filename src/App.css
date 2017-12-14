@@ -87,7 +87,7 @@ html, body {
     height: 375px;
 }
 
-.resume {}
+
 
 @keyframes App-logo-spin {
     from {
@@ -98,7 +98,7 @@ html, body {
     }
 }
 
-a {
+/* a {
     color: white;
     text-decoration: none;
 }
@@ -106,14 +106,14 @@ a {
 p {
     color: white;
     font-size: 18px;
-}
+} */
 
 .App-logo1 {
     /*animation: App-logo-spin infinite 10s linear;*/
     height: 22px;
 }
 
-/*About Section*/
+
 
 .SectionHeader {
     font-family: Dolce Vita;
@@ -125,6 +125,12 @@ p {
     padding-bottom: 20px;
 }
 
+
+
+
+/* ABOUT SECTION */
+
+
 .AboutSection {
     margin-top: 2em;
     display: flex;
@@ -135,8 +141,8 @@ p {
     color: white;
     margin-left: 8em;
     margin-right: 8em;
-    /*border: 1px solid black;*/
-    height: 475px;
+    border: 1px solid rgb(100, 172, 188);
+    height: 500px;
     background-color: black;
     opacity: .63;
 }
@@ -168,15 +174,9 @@ p {
 }
 
 
-.ResumeSection {
-    margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
 
+
+/* PORTFOLIO SECTION */
 
 .PortfolioSection{
     margin-top: 2em;
@@ -186,42 +186,85 @@ p {
     justify-content: space-around;
     margin-left: 5em;
     margin-right: 5em;
-    height: 475px;
-    /*background-color: black;*/
-    opacity: .63;
+    height: 500px;
+
 }
-
-
 
 .projects{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    /*align-items: center;*/
     align-content: center;
     justify-content: space-between;
 
+
+
 }
-
-
-.photo-grid-item {
+.projects div {
   border: 1px solid rgb(100, 172, 188);
-  width: 200px;
-  height: 275px;
-  background: black;
+  width: 20vw;
+  height: 20vw;
+  background-color: black;
+  position: relative;
+  transition: filter 0.25s;
 }
+
+.projects div img {
+  width:100%;
+  height: 80%;
+  transition: filter 0.25s; }
+
+  .projects p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Dolce Vita;
+      letter-spacing: 3px;
+      /* color: rgb(100, 172, 188); */
+      font-size: 15px;
+      font-weight:  500;
+
+  }
+
+  .projects p img{
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
+
+  }
+
+  .projects div div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(100, 172, 188);
+    font-family: Dolce Vita;
+    letter-spacing: 5px;
+    font-size: 3vh;
+    font-weight: 500;
+    transition: opacity 0.25s;
+    opacity: 0; }
+    .projects div div:hover {
+    opacity: .85; }
+
+
+
 
 .githubTitle {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 1em;
     font-family: Dolce Vita;
     color: black;
     letter-spacing: 8px;
     font-weight: 900;
-    /*font-size: 25px;*/
+    font-size: 25px;
     align-content:  center;
 }
 
@@ -231,11 +274,40 @@ p {
     letter-spacing: 6px;
     font-weight: 900;
     font-size: 25px;
+    padding: 10px;
 }
 
-.githubMore a:hover {
-    color: green;
+.githubTitle :hover {
+    color: rgb(100, 172, 188);
+    background-color: black;
+    opacity: .63;
+    border-radius: 25px;
 }
+
+
+/* RESUME SECTION */
+
+.ResumeSection {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.resume{
+    height: 500px;
+    width: 1000px;
+    border: 1px solid rgb(100, 172, 188);
+}
+
+
+
+
+
+/* CONTACT SECTION */
+
 .ContactSection {
     margin-top: 2em;
     display: flex;
@@ -245,11 +317,20 @@ p {
     justify-content: space-around;
     margin-left: 8em;
     margin-right: 8em;
-    height: 475px;
+    height: 500px;
     background-color: black;
     opacity: .63;
+    border: 1px solid rgb(100, 172, 188);
 
 }
+
+
+
+
+
+
+
+/* FOOTER  */
 
 .splash-footer {
     display: flex;
@@ -269,4 +350,16 @@ p {
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 3px;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+    font-size: 18px;
 }

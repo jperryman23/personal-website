@@ -16,7 +16,7 @@ export default class About extends Component {
             <section className="AboutSection">
 
                 <div>
-                    
+
                     <p>I am a full stack web developer with a business background.</p>
 
                     <p>I am interested in both front and back-end web development positions as well as cryptocurrencies and blockchain technology.</p>
@@ -32,7 +32,7 @@ export default class About extends Component {
                 <div className="galvanizeLogo">
 
                     <div className="aboutMore">For more about me visit my personal website → <u>
-                    <a href="https://www.julesperryman.com" target="_blank"> www.julesperryman.com </a> </u> </div>
+                    <a href="https://www.julesperryman.com" target="_blank" rel='noopener noreferrer'> www.julesperryman.com </a> </u> </div>
 
                     <img className="g46logo"  alt="logo" src='../images/g46logo.png'/>
 

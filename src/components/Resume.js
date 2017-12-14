@@ -6,22 +6,20 @@ import Footer from './Footer';
 
 export default class Resume extends Component {
     render() {
-        return (
-            <div className="App">
-                <Header  />
-                    <div className="SectionHeader">
-                        RESUME SECTION
-                    </div>
-
-                    <section className="ResumeSection">
-                  <object width="1100" height="475" data="../../images/JulesPerryman-Resume.pdf" className="resume"></object>
-
-                    </section>
-
-                <Footer />
-
-
+        return (<div className="App">
+            <Header/>
+            <div className="SectionHeader">
+                RESUME SECTION
             </div>
-        )
+
+        <section className="ResumeSection">
+
+            <object className="resume" data="../../images/JulesPerryman-Resume.pdf" ></object>
+
+        </section>
+
+            <Footer/>
+
+        </div>)
     }
 }
