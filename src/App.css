@@ -122,24 +122,49 @@ p {
     font-size: 20px;
     font-weight:  600;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .AboutSection {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     color: white;
     margin-left: 8em;
     margin-right: 8em;
     /*border: 1px solid black;*/
-    height: 450px;
-    border: 1px solid black;
+    height: 475px;
     background-color: black;
-    opacity: .65;
+    opacity: .63;
+}
+
+
+.galvanizeLogo {
+    margin-top: 9em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-end;
+    justify-content:  space-between;
+    /*border: 1px solid white;*/
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.aboutMore {
+    font-family: Dolce Vita;
+    letter-spacing: 3px;
+    color: rgb(100, 172, 188);
+    font-size: 14px;
+    font-weight:  600;
+}
+
+
+.g46logo {
+    height: 45px;
 }
 
 
