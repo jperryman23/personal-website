@@ -15,6 +15,10 @@ export default class Portfolio extends Component {
                     <div className="SectionHeader">
                         PORTFOLIO SECTION
                     </div>
+                    <section className="PortfolioSection">
+
+                    </section>
+
 
 
                     <Footer />

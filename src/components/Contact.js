@@ -12,7 +12,6 @@ export default class Contact extends Component {
                  <Header  />
 
 
-
                     <div className="SectionHeader">
                         CONTACT SECTION
                     </div>
