@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 import './App.css';
 import Home from './components/Home';
 import About from './components/About';
-import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 import Contact from './components/Contact';
 
 
@@ -25,8 +25,8 @@ class App extends Component {
 
             <Route exact path="/" component={Home}/>
             <Route exact path='/About' component={About}/>
-            <Route exact path='/Resume' component={Resume}/>
             <Route exact path='/Portfolio' component={Portfolio}/>
+            <Route exact path='/Resume' component={Resume}/>
             <Route exact path='/Contact' component={Contact}/>
 
             </div>

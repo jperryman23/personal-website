@@ -121,7 +121,7 @@ p {
     color: rgb(100, 172, 188);
     font-size: 20px;
     font-weight:  600;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -175,13 +175,79 @@ p {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    justify-content: space-between;
 }
+
 
 .PortfolioSection{
     margin-top: 2em;
     display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 5em;
+    margin-right: 5em;
+    height: 475px;
+    /*background-color: black;*/
+    opacity: .63;
+}
+
+
+
+.projects{
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
+    /*align-items: center;*/
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+
+.photo-grid-item {
+  border: 1px solid rgb(100, 172, 188);
+  width: 200px;
+  height: 275px;
+  background: black;
+}
+
+.githubTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    font-family: Dolce Vita;
+    color: black;
+    letter-spacing: 8px;
+    font-weight: 900;
+    /*font-size: 25px;*/
+    align-content:  center;
+}
+
+.githubMore {
+    margin-left: 20px;
+    color: black;
+    letter-spacing: 6px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.githubMore a:hover {
+    color: green;
+}
+.ContactSection {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 8em;
+    margin-right: 8em;
+    height: 475px;
+    background-color: black;
+    opacity: .63;
 
 }
 

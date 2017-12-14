@@ -14,7 +14,7 @@ export default class Resume extends Component {
                     </div>
 
                     <section className="ResumeSection">
-                  <object width="1100" height="550" data="../../images/JulesPerryman-Resume.pdf" className="resume"></object>
+                  <object width="1100" height="475" data="../../images/JulesPerryman-Resume.pdf" className="resume"></object>
 
                     </section>
 

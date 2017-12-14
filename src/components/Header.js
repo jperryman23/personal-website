@@ -10,56 +10,55 @@ import {
 
 export default class Header extends Component {
     render() {
-        return (
-            <div className="App">
+        return (<div className="App">
 
-
-                <div>
-                    <header className="App-header">
-                        <div className="App-title">
-                            <div className="Title-item">
-                                <img src="/../../images/logo-white.png" alt="" height="30px"/>
-                            </div>
-                            <div className="Title-item">Jules Perryman </div>
-
-                            {/* <div className="Title-item">| Full Stack Web Developer</div> */}
+            <div>
+                <header className="App-header">
+                    <div className="App-title">
+                        <div className="Title-item">
+                            <img src="/../../images/logo-white.png" alt="" height="30px"/>
+                        </div>
+                        <div className="Title-item">Jules Perryman
                         </div>
 
+                        {/* <div className="Title-item">| Full Stack Web Developer</div> */}
+                    </div>
 
-                <div className="App-menu">
+                    <div className="App-menu">
 
-                    <Link to='/' className="Menu-item" >
-                        Home
-                    </Link>
+                        <Link to='/' className="Menu-item">
+                            Home
+                        </Link>
 
-                <Link to='/About' className="Menu-item" >
-                    About
-                </Link>
+                        <Link to='/About' className="Menu-item">
+                            About
+                        </Link>
 
-                <Link to='/Resume' className="Menu-item" >
-                    Resume
-                </Link>
+                        <Link to='/Portfolio' className="Menu-item">
+                            Portfolio
+                        </Link>
 
-                <Link to='/Portfolio' className="Menu-item" >
-                    Portfolio
-                </Link>
-                <Link to='/Contact' className="Menu-item" >
-                    Contact
-                </Link>
+                        <Link to='/Resume' className="Menu-item">
+                            Resume
+                        </Link>
+                        
+                        <Link to='/Contact' className="Menu-item">
+                            Contact
+                        </Link>
 
-            </div>
+                    </div>
 
-                        {/* <div className="App-menu">
+                    {/* <div className="App-menu">
                             <a className="Menu-item" href='/about'>About</a>
                             <a className="Menu-item" href='/resume'>Resume</a>
                             <a className="Menu-item" href='/portfolio'>Portfolio</a>
                             <a className="Menu-item" href='/contact'>Contact</a>
-                        </div> */}
+                        </div> */
+                    }
 
-                    </header>
-                </div>
-
+                </header>
             </div>
-        )
+
+        </div>)
     }
 }

@@ -17,6 +17,51 @@ export default class Portfolio extends Component {
                     </div>
                     <section className="PortfolioSection">
 
+
+
+                        <div className="projects">
+                            <div className='photo-grid-item'>
+                              <img src='../../images/logo-white.png'/>
+                              <p>TEST TEXT</p>
+                            </div>
+
+                            <div className='photo-grid-item'>
+                              <img src='../../images/logo-white.png'/>
+                              <p>TEST TEXT</p>
+                            </div>
+
+                            <div className='photo-grid-item'>
+                              <img src='../../images/logo-white.png'/>
+                              <p>TEST TEXT</p>
+                            </div>
+
+                            <div className='photo-grid-item'>
+                              <img src='../../images/logo-white.png'/>
+                              <p>TEST TEXT</p>
+                            </div>
+
+                            <div className='photo-grid-item'>
+                          <img src='../../images/logo-white.png'/>
+                          <p>TEST TEXT</p>
+                          </div>
+
+                          </div>
+
+
+
+
+                          <div className="githubTitle">
+
+                               <img src='../../images/github.png' alt="githubicon" height="35px"/>
+
+
+                               <a className="githubMore" href="https://github.com/jperryman23" target="_blank"> www.julesperryman.com </a>
+
+
+                          </div>
+
+
+
                     </section>
 
 

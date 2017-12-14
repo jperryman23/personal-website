@@ -16,6 +16,12 @@ export default class Contact extends Component {
                         CONTACT SECTION
                     </div>
 
+                    <section className="ContactSection">
+
+
+
+                    </section>
+
                     <Footer />
 
             </div>
