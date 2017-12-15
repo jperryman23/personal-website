@@ -135,7 +135,7 @@ p {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     color: white;
@@ -143,21 +143,42 @@ p {
     margin-right: 8em;
     border: 1px solid rgb(100, 172, 188);
     height: 500px;
-    background-color: black;
-    opacity: .63;
+    /* background-color: black; */
+    /* opacity: .63; */
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.bio img {
+    background-color: white;
+    height: 200px;
+}
+
+.bioText {
+    font-size: 15px;
 }
 
 
+
+
+
 .galvanizeLogo {
+    width: 78.5vw;
     margin-top: 9em;
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: flex-end;
     justify-content:  space-between;
     /*border: 1px solid white;*/
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+    background-color: black;
 }
 
 .aboutMore {
@@ -269,6 +290,7 @@ p {
     font-weight: 900;
     font-size: 25px;
     align-content:  center;
+    justify-content: space-around;
 }
 
 .githubMore {

@@ -29,21 +29,27 @@ const myTechnologies = [
 'Pivitol Tracker',
 'Adobe Suite',
 'TDD',
-'Parallax',
+'Parallax'
 ]
 
 export default class Portfolio extends Component {
     constructor() {
         super()
         this.state = {
-            technologies: "Technologies and Methods",
+            technologies: "Technologies",
+
+
         }
     }
     render() {
         setTimeout(() => {
-    const i = Math.floor(Math.random() * 25)
-    this.setState({technologies: myTechnologies[i]})
-}, 1000)
+            const i = Math.floor(Math.random() * 11)
+            this.setState({technologies: myTechnologies[i]})
+            }, 1000)
+
+
+
+
 
         return (<div className="App">
             <Header/>
@@ -158,6 +164,8 @@ export default class Portfolio extends Component {
 
                 <div className="githubTitle">
                     {this.state.technologies}
+
+
                 </div>
 
                 {/* <div className="githubTitle">
