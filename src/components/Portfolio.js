@@ -4,8 +4,47 @@ import '../App.css'
 import Header from './Header';
 import Footer from './Footer';
 
+const myTechnologies = [
+'JavaScript',
+'jQuery',
+'HTML 5',
+'CSS3',
+'Node.js',
+'React',
+'Redux',
+'AngularJS',
+'MongoDB',
+'AWS',
+'Handlebars.js',
+'PostgreSQL',
+'mySQL',
+'Git Github',
+'Databases',
+'Express',
+'OOP',
+'AJAX JSON',
+'Agile',
+'Six Sigma',
+'AWS',
+'Pivitol Tracker',
+'Adobe Suite',
+'TDD',
+'Parallax',
+]
+
 export default class Portfolio extends Component {
+    constructor() {
+        super()
+        this.state = {
+            technologies: "Technologies and Methods",
+        }
+    }
     render() {
+        setTimeout(() => {
+    const i = Math.floor(Math.random() * 25)
+    this.setState({technologies: myTechnologies[i]})
+}, 1000)
+
         return (<div className="App">
             <Header/>
 
@@ -17,80 +56,116 @@ export default class Portfolio extends Component {
                 <div className="projects">
 
                     <div>
-                        <a href='https://www.independentshowings.com/' target='_blank' rel='noopener noreferrer'>
 
-                            <img src='../../images/independentshowings.png' alt="independentshowings"/>
+                        <img src='../../images/independentshowings.png' alt="independentshowings"/>
 
-                            <p>
-                                <img src='../../images/islogo.png' alt="islogo"/>
+                        <p>
+                            <img src='../../images/islogo.png' alt="islogo"/>
 
-                                Independent Showings</p>
+                            Independent Showings</p>
 
-                            <div>View Live</div>
-
-                        </a>
-
-                    </div>
-
-                    <div>
-                        <a href='http://www.mycro.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
-
-                            <img src='../../images/MycroLens.png' alt="MycroLens"/>
-
-                            <p>
-                                <img src='../../images/mycro-logo.jpg' alt="MycroLens"/>
-
-                                MycroLens</p>
-
-                            <div>
-                                View Live
-                            </div>
-
-                        </a>
+                        <div>
+                            <a href='http://www.independentshowings.com/' target='_blank' rel='noopener noreferrer'>
+                                Live
+                            </a>
+                            <a href='https://github.com/jperryman23/independent-showings-client' target='_blank' rel='noopener noreferrer'>
+                                Github
+                            </a>
+                        </div>
 
                     </div>
 
                     <div>
-                        <a href='https://infinite-shelf-75058.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                        <img src='../../images/MycroLens.png' alt="MycroLens"/>
 
-                            <img src='../../images/the46open.png' alt="46open"/>
+                        <p>
+                            <img src='../../images/mycro-logo.jpg' alt="MycroLens"/>
 
-                            <p>
-                                <img src='../../images/the46icon.png' alt="46icon"/>
+                            MycroLens</p>
 
-                                The 46 Open
-                            </p>
+                        <div>
+                            <a href='http://mycro.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                                Live
+                            </a>
 
-                            <div>View Live</div>
+                            <a href='https://github.com/MicroNutra' target='_blank' rel='noopener noreferrer'>
+                                Github
+                            </a>
 
-                        </a>
+                        </div>
 
                     </div>
 
                     <div>
-                        <a href='https://chrome.google.com/webstore/detail/jdashboard/iigaakiakeknjkbpcangmaldimbmfohk' target='_blank' rel='noopener noreferrer'>
+                        <img src='../../images/the46open.png' alt="46open"/>
 
-                            <img src='../../images/jdashboard.png' alt="jdashboard"/>
+                        <p>
+                            <img src='../../images/the46icon.png' alt="46icon"/>
 
-                            <p>
-                                <img src='../../images/jdashboard-logo.png' alt="jdashicon"/>
+                            The 46 Open
+                        </p>
 
-                                JDesktop Extension</p>
+                        <div>
+                            <a href='https://infinite-shelf-75058.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Live</a>
 
-                            <div>View Live</div>
+                            <a href='https://github.com/racket-tiers/the46open' target='_blank' rel='noopener noreferrer'>Github</a>
 
-                        </a>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <img src='../../images/jdashboard.png' alt="jdashboard"/>
+
+                        <p>
+                            <img src='../../images/jdashboard-logo.png' alt="jdashicon"/>
+
+                            JDesktop Extension</p>
+
+                        <div>
+
+                            <a href='https://chrome.google.com/webstore/detail/jdashboard/iigaakiakeknjkbpcangmaldimbmfohk' target='_blank' rel='noopener noreferrer'>
+                                Live
+                            </a>
+
+                            <a href='https://github.com/jperryman23/Q1-project' target='_blank' rel='noopener noreferrer'>Github</a>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <img src='../../images/flyakite2.png' alt="flyakite"/>
+                        <p>
+                            <img src='../../images/banksylogo.png' alt="kiteicon"/>
+
+                            Go Fly A Kite</p>
+
+                        <div>
+
+                            <a href='http://goflyakite.surge.sh/' target='_blank' rel='noopener noreferrer'>
+                                Live
+                            </a>
+
+                            <a href='https://github.com/Tristannica/Hack-the-Planet_Team_diScreeps' target='_blank' rel='noopener noreferrer'>Github</a>
+
+                        </div>
 
                     </div>
 
                 </div>
 
                 <div className="githubTitle">
+                    {this.state.technologies}
+                </div>
+
+                {/* <div className="githubTitle">
                     <img src='../../images/github.png' alt="githubicon" height="45px"/>
                     <a className="githubMore" href="https://github.com/jperryman23" target="_blank" rel='noopener noreferrer'>
-                        View these projects on Github
+                        View more projects on Github
                     </a>
-                </div>
+                </div> */}
 
             </section>
 

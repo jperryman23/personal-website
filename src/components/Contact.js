@@ -17,6 +17,15 @@ export default class Contact extends Component {
                     </div>
 
                     <section className="ContactSection">
+                    <div>Linked In</div>
+                    <div>Github</div>
+                    <div>Talent</div>
+                    <div>SquareSpace</div>
+                    <div>Email</div>
+                    <div>Phone</div>
+
+
+
 
 
 

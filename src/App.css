@@ -184,8 +184,8 @@ p {
     flex-direction: column;
     align-content: center;
     justify-content: space-around;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left:  1.5em;
+    margin-right: 1.5em;
     height: 500px;
 
 }
@@ -202,7 +202,7 @@ p {
 }
 .projects div {
   border: 1px solid rgb(100, 172, 188);
-  width: 20vw;
+  width: 18.3vw;
   height: 20vw;
   background-color: black;
   position: relative;
@@ -242,6 +242,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
     color: rgb(100, 172, 188);
     font-family: Dolce Vita;
     letter-spacing: 5px;
@@ -252,7 +253,9 @@ p {
     .projects div div:hover {
     opacity: .85; }
 
-
+  .projects div div a:hover{
+      color: rgb(100, 172, 188);
+  }
 
 
 .githubTitle {
@@ -311,7 +314,7 @@ p {
 .ContactSection {
     margin-top: 2em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: space-around;
@@ -321,6 +324,7 @@ p {
     background-color: black;
     opacity: .63;
     border: 1px solid rgb(100, 172, 188);
+    color: white;
 
 }
 
