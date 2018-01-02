@@ -30,9 +30,6 @@ export default class Header extends Component {
                             Home
                         </Link>
 
-                        <Link to='/About' className="Menu-item">
-                            About
-                        </Link>
 
                         <Link to='/Portfolio' className="Menu-item">
                             Portfolio
@@ -41,7 +38,11 @@ export default class Header extends Component {
                         <Link to='/Resume' className="Menu-item">
                             Resume
                         </Link>
-                        
+
+                        <Link to='/About' className="Menu-item">
+                            About
+                        </Link>
+
                         <Link to='/Contact' className="Menu-item">
                             Contact
                         </Link>
