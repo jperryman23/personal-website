@@ -15,18 +15,19 @@ export default class About extends Component {
                 ABOUT SECTION
             </div>
 
-            {/* <section className="AboutSection">
-
-                <div className="bio">
+            <section className="AboutSection">
 
 
 
-                    <div className="bioText">I am a full stack web developer with a business background.
+                        <p> I am a full stack web developer with a background in finance and real estate. I am interested in both front and back-end web development positions both here in the US as well as abroad. </p>
 
-                    I am interested in both front and back-end web development positions as well as cryptocurrencies and blockchain technology.
+                     <p>I am passionate about innovative and unique technical solutions or web applications that can be scaled globally. I am a quick learner and I particularly excel at problem solving, maximizing efficiency, and creative solutions. As an avid world traveler and photographer, I love experiencing new countries and cultures.</p>
 
-                    </div>
-                    <div className="interests">
+
+
+
+
+                        <div className="interests">
                         Interests:
                         <ul>
                             <li> Web Development </li>
@@ -34,11 +35,13 @@ export default class About extends Component {
                             <li> Cryptocurrencies </li>
                             <li> International Travel</li>
                             <li> Philanthropy </li>
+                            <li> Golf / Tennis </li>
 
                         </ul>
-
                     </div>
-                </div>
+
+
+
 
                 <div className="galvanizeLogo">
 
@@ -55,7 +58,7 @@ export default class About extends Component {
 
 
 
-            </section> */}
+            </section>
 
             <Footer/>
         </div>)
