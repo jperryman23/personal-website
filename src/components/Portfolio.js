@@ -43,7 +43,7 @@ export default class Portfolio extends Component {
     }
     render() {
         setTimeout(() => {
-            const i = Math.floor(Math.random() * 11)
+            const i = Math.floor(Math.random() * 25)
             this.setState({technologies: myTechnologies[i]})
             }, 1000)
 
@@ -82,7 +82,7 @@ export default class Portfolio extends Component {
                     </div>
 
                     <div>
-                        <img src='../../images/portfolio/MycroLens.png' alt="MycroLens"/>
+                        <img src='../../images/portfolio/mycroLens.png' alt="MycroLens"/>
 
                         <p>
                             <img src='../../images/portfolio/mycro-logo.jpg' alt="MycroLens"/>
