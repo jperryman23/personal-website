@@ -15,13 +15,11 @@ export default class About extends Component {
                 ABOUT SECTION
             </div>
 
-            <section className="AboutSection">
+            {/* <section className="AboutSection">
 
                 <div className="bio">
 
-                    <div>
-                        <img src='../../images/website_profile.jpg' alt="profilepic"/>
-                    </div>
+
 
                     <div className="bioText">I am a full stack web developer with a business background.
 
@@ -32,7 +30,7 @@ export default class About extends Component {
                         Interests:
                         <ul>
                             <li> Web Development </li>
-                            <li> Blockchain Technology</li>
+                            <li> Blockchain Technology </li>
                             <li> Cryptocurrencies </li>
                             <li> International Travel</li>
                             <li> Philanthropy </li>
@@ -57,7 +55,7 @@ export default class About extends Component {
 
 
 
-            </section>
+            </section> */}
 
             <Footer/>
         </div>)

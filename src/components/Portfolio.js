@@ -63,10 +63,10 @@ export default class Portfolio extends Component {
 
                     <div>
 
-                        <img src='../../images/independentshowings.png' alt="independentshowings"/>
+                        <img src='../../images/portfolio/independentshowings.png' alt="independentshowings"/>
 
                         <p>
-                            <img src='../../images/islogo.png' alt="islogo"/>
+                            <img src='../../images/portfolio/islogo.png' alt="islogo"/>
 
                             Independent Showings</p>
 
@@ -82,10 +82,10 @@ export default class Portfolio extends Component {
                     </div>
 
                     <div>
-                        <img src='../../images/MycroLens.png' alt="MycroLens"/>
+                        <img src='../../images/portfolio/MycroLens.png' alt="MycroLens"/>
 
                         <p>
-                            <img src='../../images/mycro-logo.jpg' alt="MycroLens"/>
+                            <img src='../../images/portfolio/mycro-logo.jpg' alt="MycroLens"/>
 
                             MycroLens</p>
 
@@ -103,10 +103,10 @@ export default class Portfolio extends Component {
                     </div>
 
                     <div>
-                        <img src='../../images/the46open.png' alt="46open"/>
+                        <img src='../../images/portfolio/the46open.png' alt="46open"/>
 
                         <p>
-                            <img src='../../images/the46icon.png' alt="46icon"/>
+                            <img src='../../images/portfolio/the46icon.png' alt="46icon"/>
 
                             The 46 Open
                         </p>
@@ -122,10 +122,10 @@ export default class Portfolio extends Component {
 
                     <div>
 
-                        <img src='../../images/jdashboard.png' alt="jdashboard"/>
+                        <img src='../../images/portfolio/jdashboard.png' alt="jdashboard"/>
 
                         <p>
-                            <img src='../../images/jdashboard-logo.png' alt="jdashicon"/>
+                            <img src='../../images/portfolio/jdashboard-logo.png' alt="jdashicon"/>
 
                             JDesktop Extension</p>
 
@@ -142,9 +142,9 @@ export default class Portfolio extends Component {
                     </div>
 
                     <div>
-                        <img src='../../images/flyakite2.png' alt="flyakite"/>
+                        <img src='../../images/portfolio/flyakite2.png' alt="flyakite"/>
                         <p>
-                            <img src='../../images/banksylogo.png' alt="kiteicon"/>
+                            <img src='../../images/portfolio/banksylogo.png' alt="kiteicon"/>
 
                             Go Fly A Kite</p>
 
@@ -169,7 +169,7 @@ export default class Portfolio extends Component {
                 </div>
 
                 {/* <div className="githubTitle">
-                    <img src='../../images/github.png' alt="githubicon" height="45px"/>
+                    <img src='../../images/portfolio/github.png' alt="githubicon" height="45px"/>
                     <a className="githubMore" href="https://github.com/jperryman23" target="_blank" rel='noopener noreferrer'>
                         View more projects on Github
                     </a>

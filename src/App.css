@@ -279,7 +279,7 @@ p {
     border: 1px solid rgb(100, 172, 188);
     height: 500px;
     background-color: black;
-    /* opacity: .63; */
+    opacity: .75;
 }
 
 .bio {
@@ -361,25 +361,57 @@ p {
 /* CONTACT SECTION */
 
 .ContactSection {
-    margin-top: 2em;
+    margin-top: 3.5em;
+    margin-left: 10em;
+    margin-right: 10em;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-    margin-left: 8em;
-    margin-right: 8em;
-    height: 500px;
-    background-color: black;
-    opacity: .63;
-    border: 1px solid rgb(100, 172, 188);
+    flex-direction: row;
     color: white;
 
+}
+.ContactPicture{
+    width: 25%;
+    height: 300px;
+    border: 1px solid rgb(100, 172, 188);
+}
+.ContactMethods {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    width: 70%;
+    margin-left: 10px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: ; */
+    align-content: center;
+    border: 1px solid rgb(100, 172, 188);
+    background: black;
+    opacity: .75;
 }
 
 
 
+.ContactMethods div {
+    display: flex;
+    align-items: center;
+    font-family: Dolce Vita;
+    letter-spacing: 3px;
+    /* color: rgb(100, 172, 188); */
+    font-size: 15px;
+    font-weight:  900;
+}
+.ContactMethods div:hover {
+    color: rgb(100, 172, 188);
+}
 
+.ContactMethods a:hover {
+    color: rgb(100, 172, 188);
+}
+.ContactMethods img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
 
