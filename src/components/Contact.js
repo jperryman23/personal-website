@@ -22,7 +22,7 @@ export default class Contact extends Component {
 
                 <div className="ContactMethods">
                     <div>
-                        <img src='../../images/contact/linkedin-logo.png' alt="" height="25px"/>
+                        <img src='../../images/contact/linkedin-logo.png' alt="linked" height="25px"/>
                         <a target="_blank" rel='noopener noreferrer' href="https://www.linkedin.com/in/julesperryman/"> LINKEDIN </a>
                     </div>
 

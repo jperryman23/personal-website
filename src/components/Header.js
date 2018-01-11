@@ -16,7 +16,7 @@ export default class Header extends Component {
                 <header className="App-header">
                     <div className="App-title">
                         <div className="Title-item">
-                            <img src="/../../images/logo-white.png" alt="" height="30px"/>
+                            <img src="/../../images/logo-white.png" alt="logowhite" height="30px"/>
                         </div>
                         <div className="Title-item">Jules Perryman
                         </div>
@@ -49,13 +49,6 @@ export default class Header extends Component {
 
                     </div>
 
-                    {/* <div className="App-menu">
-                            <a className="Menu-item" href='/about'>About</a>
-                            <a className="Menu-item" href='/resume'>Resume</a>
-                            <a className="Menu-item" href='/portfolio'>Portfolio</a>
-                            <a className="Menu-item" href='/contact'>Contact</a>
-                        </div> */
-                    }
 
                 </header>
             </div>

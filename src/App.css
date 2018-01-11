@@ -1,6 +1,7 @@
 body {
     background-image: url("/../../images/flamenco-beach.jpeg");
     height: 100vh;
+    width: 100vw;
     background-position-x: 30%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,26 +14,34 @@ body {
 
 .App {
     text-align: center;
+
 }
 
 .App-header {
     /*background-color: #222222ba;*/
     /*width: 100vw;*/
+    /* height: 100vh; */
     font-family: Dolce Vita;
     font-weight: bold;
-    height: 50px;
+    /* height: 50px; */
     padding: 10px;
     color: white;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     letter-spacing: 3px;
     /*border: 1px solid white;*/
 }
 
+
+
+
 .App-title {
     font-size: 25px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     /*border: 1px solid white;*/
@@ -45,10 +54,17 @@ body {
     letter-spacing: 5px;
 }
 
+
 .App-menu {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    /*border: 1px solid white;*/
+    /* align-items: left; */
+    align-content: center;
+    /* width: 100vw; */
+    /* border: 1px solid white; */
+    /* align-items: baseline; */
 }
 
 .App-menu a:hover {
@@ -67,7 +83,8 @@ body {
 /*HOME PAGE*/
 
 .HomeBodySection {
-    margin-top: 3em;
+    /* margin-top: 1em; */
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -75,13 +92,12 @@ body {
 }
 
 .homeTitle {
-    margin-top: 1em;
+    display: flex;
     font-family: Dolce Vita;
-    /*font-weight: bolder;*/
     color: black;
     letter-spacing: 8px;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .App-logo {
@@ -100,15 +116,6 @@ body {
     }
 }
 
-/* a {
-    color: white;
-    text-decoration: none;
-}
-
-p {
-    color: white;
-    font-size: 18px;
-} */
 
 .App-logo1 {
     /*animation: App-logo-spin infinite 10s linear;*/
@@ -119,9 +126,9 @@ p {
 
 .SectionHeader {
     font-family: Dolce Vita;
-    letter-spacing: 8px;
+    letter-spacing: 9px;
     color: rgb(100, 172, 188);
-    font-size: 20px;
+    font-size: 25px;
     font-weight:  600;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -351,34 +358,39 @@ p {
 /* CONTACT SECTION */
 
 .ContactSection {
-    margin-top: 3.5em;
+    margin-top: 4em;
     margin-left: 10em;
     margin-right: 10em;
     display: flex;
     flex-direction: row;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     color: white;
+    align-content: center;
+    /* align-items: center; */
 
 }
 .ContactPicture{
-    width: 25%;
-    height: 300px;
+    margin-left: 5em;
+    /* width: 25%; */
+    /* height: 300px; */
     /* border: 1px solid rgb(100, 172, 188); */
 }
 .ContactPicture img{
     border: 1px solid rgb(100, 172, 188);
+    height: 300px;
+
 }
 
 .ContactMethods {
     padding-top: 2.5px;
     padding-bottom: 2.5px;
-    width: 70%;
+    width: 60%;
     margin-left: 10px;
     height: 295px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: ; */
     align-content: center;
     border: 1px solid rgb(100, 172, 188);
     background: black;
@@ -423,7 +435,7 @@ p {
     position: absolute;
     bottom: 0;
     height: 45px;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     justify-content: space-around;
     font-family: Dolce Vita;

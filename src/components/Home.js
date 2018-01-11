@@ -15,9 +15,9 @@ export default class Home extends Component {
                 </div>
 
                 <div className="homeTitle">
-                    <h1>
+
                         FULL STACK WEB DEVELOPER
-                    </h1>
+
                 </div>
 
             </section>

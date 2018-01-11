@@ -48,9 +48,6 @@ export default class Portfolio extends Component {
             }, 1000)
 
 
-
-
-
         return (<div className="App">
             <Header/>
 
