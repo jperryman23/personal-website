@@ -16,7 +16,7 @@ export default class Home extends Component {
 
                 <div className="homeTitle">
 
-                        FULL STACK WEB DEVELOPER
+                        TECHNICAL PROJECT LEADER
 
                 </div>
 

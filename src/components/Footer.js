@@ -21,9 +21,9 @@ export default class Footer extends Component {
 
                     <div> &copy; Copyright 2017 </div>
                     {/* <div>  Jules Perryman</div> */}
-                    <div> Full Stack Web Developer </div>
+                    <div> Technical Project Leader </div>
                     <div><a target="_blank" rel='noopener noreferrer' href="https://www.julesperryman.io"> www.julesperryman.io </a> </div>
-    
+
                     <div> Location: Global </div>
                     <div> <img src={logo1} className="App-logo1" alt="logo" /> </div>
 

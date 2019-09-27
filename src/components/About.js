@@ -16,12 +16,12 @@ export default class About extends Component {
             <section className="AboutSection">
 
                 <p>
-                    I am a full stack web developer with a background in finance and real estate. I am interested in both front and back-end web development positions both here in the US as well as abroad.
+                    Transformative, information technology leader with diverse professional experience poised to leverage a business background and technical expertise to excel as a manager and leader. Calculated business tactician with the vision and dexterity to lead enterprise implementations of scalable and intero- perable information systems, while aligning business goals with technology solutions driving process improvements, maximizing workplace producti- vity, and generating bottom-line gains. Integrity-driven, methodical change agent with excellent communication skills effective for both executive management and technical development teams, who, through high-level critical thinking, SAFe Agile methodologies, and collaborating amongst cross-functional teams attains high levels of productivity, employee engagement, and increased efficiency. By continuously adapting, analyzing and learning is able to streamline processes and workflows throughout the entire implementation and installation of scaled technology solutions.
                 </p>
 
                 <p>I am passionate about innovative and unique technical solutions or web applications that can be scaled globally. I am a quick learner and I particularly excel at problem solving, maximizing efficiency, and creative solutions. As an avid world traveler and photographer, I love experiencing new countries and cultures.</p>
 
-                <div className="interests">
+                 <div className="interests">
                     Interests:
                     <ul>
                         <li>
@@ -44,6 +44,7 @@ export default class About extends Component {
 
                     </ul>
                 </div>
+
 
                 <div className="galvanizeLogo">
 

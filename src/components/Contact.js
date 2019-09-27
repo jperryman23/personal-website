@@ -30,10 +30,8 @@ export default class Contact extends Component {
                         <img src='../../images/contact/github.png' alt="githubicon" height="30px"/>
                         <a target="_blank" rel='noopener noreferrer' href="https://github.com/jperryman23"> GitHub </a>
                     </div>
-                    <div>
-                        <img src='../../images/contact/gtalent.png' alt="githubicon" height="30px"/>
-                    <a target="_blank" rel='noopener noreferrer' href="https://talent.galvanize.com/students/1443"> gTalent </a>
-                    </div>
+
+                
                     <div><img src='../../images/contact/squarespace2.png' alt="githubicon" height="30px"/>
                     <a target="_blank" rel='noopener noreferrer' href="https://julesperryman.squarespace.com/"> PERSONAL SITE </a>
 
