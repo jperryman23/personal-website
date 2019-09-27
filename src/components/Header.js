@@ -30,14 +30,15 @@ export default class Header extends Component {
                             Home
                         </Link>
 
-
+                          {/*
                         <Link to='/Portfolio' className="Menu-item">
                             Portfolio
                         </Link>
+                        */}
 
-                        <Link to='/Resume' className="Menu-item">
+                      {/*  <Link to='/Resume' className="Menu-item">
                             Resume
-                        </Link>
+                        </Link> */}
 
                         <Link to='/About' className="Menu-item">
                             About

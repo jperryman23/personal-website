@@ -21,7 +21,7 @@ export default class About extends Component {
 
                 <p>I am passionate about innovative and unique technical solutions or web applications that can be scaled globally. I am a quick learner and I particularly excel at problem solving, maximizing efficiency, and creative solutions. As an avid world traveler and photographer, I love experiencing new countries and cultures.</p>
 
-                 <div className="interests">
+                 {/*<div className="interests">
                     Interests:
                     <ul>
                         <li>
@@ -43,7 +43,7 @@ export default class About extends Component {
                         </li>
 
                     </ul>
-                </div>
+                </div> */}
 
 
                 <div className="galvanizeLogo">
@@ -56,7 +56,7 @@ export default class About extends Component {
                         </u>
                     </div>
 
-                    <img className="g46logo" alt="logo" src='../images/g46logo.png'/>
+                    {/* <img className="g46logo" alt="logo" src='../images/g46logo.png'/> */}
 
                 </div>
 
