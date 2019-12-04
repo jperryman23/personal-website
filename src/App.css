@@ -89,7 +89,7 @@ body {
   color: black;
   letter-spacing: 5px;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .App-logo {
@@ -267,7 +267,7 @@ body {
 }
 
 .SectionTitleAboutHeader {
-  font-size: 20px;
+  font-size: 17px;
   align-self: flex-start;
   margin-left: 1.5rem;
   border-bottom: 1px solid #ffffff6e;
@@ -336,44 +336,42 @@ body {
 
 /* --------------------- CONTACT SECTION --------------------- */
 .ContactSection {
-  padding: 1rem;
-  margin-top: 4em;
-  margin-left: 10em;
-  margin-right: 10em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  color: white;
-  align-content: center;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
 
 }
 
 .ContactPicture {
-  margin-left: 5em;
-  padding: 1rem;
-  /* width: 25%; */
+  width: 20%;
+      border: 1px solid rgb(100, 172, 188);
+      background: black;
+      opacity: .75;
+      padding: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
   /* height: 300px; */
-  border: 1px solid rgb(100, 172, 188);
-  background: black;
-  opacity: .85;
+
 }
 
 .ContactPicture img {
-  /* border: 1px solid rgb(100, 172, 188); */
-  height: 300px;
+  height: 310px;
 }
 
 .ContactMethods {
-  padding: 1rem;
-  width: 60%;
-  margin-left: 10px;
-  height: 310px;
+  padding: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid rgb(100, 172, 188);
   background: black;
   opacity: .75;
+  width: 40%;
 
 }
 
