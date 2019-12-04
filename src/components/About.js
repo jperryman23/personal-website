@@ -10,41 +10,36 @@ export default class About extends Component {
             <Header/>
 
             <div className="SectionHeader">
-                ABOUT SECTION
+                ABOUT ME
             </div>
 
             <section className="AboutSection">
+            <div className="SectionTitleAboutHeader">
+                Transformational SAFe Agile Leader
+            </div>
 
-                <p>
-                    Transformative, information technology leader with diverse professional experience poised to leverage a business background and technical expertise to excel as a manager and leader. Calculated business tactician with the vision and dexterity to lead enterprise implementations of scalable and intero- perable information systems, while aligning business goals with technology solutions driving process improvements, maximizing workplace producti- vity, and generating bottom-line gains. Integrity-driven, methodical change agent with excellent communication skills effective for both executive management and technical development teams, who, through high-level critical thinking, SAFe Agile methodologies, and collaborating amongst cross-functional teams attains high levels of productivity, employee engagement, and increased efficiency. By continuously adapting, analyzing and learning is able to streamline processes and workflows throughout the entire implementation and installation of scaled technology solutions.
-                </p>
 
-                <p>I am passionate about innovative and unique technical solutions or web applications that can be scaled globally. I am a quick learner and I particularly excel at problem solving, maximizing efficiency, and creative solutions. As an avid world traveler and photographer, I love experiencing new countries and cultures.</p>
+                <div className="bio">
+                  Transformative, information technology leader with diverse professional experience poised to leverage a business background and technical expertise to excel as a manager and leader. Calculated business tactician with the vision and dexterity to lead enterprise implementations of scalable and interoperable information systems, while aligning business goals with technology solutions driving process improvements, maximizing workplace productivity, and generating bottom-line gains. Integrity-driven, methodical change agent with excellent communication skills effective for both executive management and technical development teams. Uses high-level critical thinking, SAFe Lean-Agile methodol- ogies, empathy and listening to empower, enable and to promote collaboration amongst cross-functional teams resulting in to superior levels of synergy, employee engagement, and efficiency. Committed to relentless improvement, continuous adaption, analysis and learning is able to streamline processes and workflows throughout the entire value stream, development life cycle and delivery of scaled technology solutions.
+                </div>
 
-                 {/*<div className="interests">
-                    Interests:
-                    <ul>
-                        <li>
-                            Web Development
-                        </li>
-                        <li>
-                            Blockchain Technology
-                        </li>
-                        <li>
-                            Cryptocurrencies
-                        </li>
-                        <li>
-                            International Travel</li>
-                        <li>
-                            Philanthropy
-                        </li>
-                        <li>
-                            Golf / Tennis
-                        </li>
 
-                    </ul>
-                </div> */}
+                <div className="interestsBox">
+                <div className="interests">
+                  <div> <li> Adopted </li>       </div>
+                  <div> <li> World Traveler    </li> </div>
+                  <div> <li> Philanthropist     </li> </div>
+                  <div> <li> Fluent Spanish     </li> </div>
+                  <div> <li> Fascinated by Orcas</li> </div>
+                  <div> <li> 6-Handipcap Golfer </li> </div>
+                  <div> <li> Seen Mt. Everest   </li> </div>
 
+
+                </div>
+                <div className="quote">  <i>“A good head and a good heart are always a formidable combination.”</i> -- Nelson Mandela
+                </div>
+
+                </div>
 
                 <div className="galvanizeLogo">
 
